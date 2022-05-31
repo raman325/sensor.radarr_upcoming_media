@@ -11,12 +11,7 @@ Read through these two resources before posting issues to GitHub or the forums.
 
 ## Supporting Development
 - :coffee:&nbsp;&nbsp;[Buy me a coffee](https://www.buymeacoffee.com/FgwNR2l)
-- :1st_place_medal:&nbsp;&nbsp;[Tip some Crypto](https://github.com/sponsors/maykar)
-- :heart:&nbsp;&nbsp;[Sponsor me on GitHub](https://github.com/sponsors/maykar)
-  <br><br>
-</br>
-<a href="https://www.themoviedb.org/"><img width="200" src="https://www.themoviedb.org/assets/1/v4/logos/408x161-powered-by-rectangle-green-bb4301c10ddc749b4e79463811a68afebeae66ef43d17bcfd8ff0e60ded7ce99.png">
-</br>This product uses the TMDb API but is not endorsed or certified by TMDb.</a>
+- :heart:&nbsp;&nbsp;[Sponsor me on GitHub](https://github.com/sponsors/raman325)
 
 ### If you're having issues, check out the [troubleshooting guide](https://github.com/custom-cards/upcoming-media-card/blob/master/troubleshooting.md) before posting an issue or asking for help on the forums.
 
@@ -68,8 +63,12 @@ sensor:
 | key | default | example |
 | --- | --- | --- |
 | title | $title | "Night of the Living Dead" |
-| line1 | $release | "In Theaters Mon, 10/31" if it's a theater release and more than a week away or "Available Monday" if it's a physical release and within a week.|
+| line1 | $release | "In Theaters Mon, 10/31" if it's a theater release or "Available digitally/physically Monday" if it's a physical or digital release.|
 | line2 | $genres | "Action, Adventure, Comedy" |
 | line3 | $rating - $runtime | "★ 9.8 - 01:30"
 | line4 | $studio | "Laurel Group Inc."
 | icon | mdi:arrow-down-bold | https://materialdesignicons.com/icon/arrow-down-bold
+
+### Credits
+
+This integration was originally written by @maykar. Since the original repository for this integration was archived, this fork is an attempt to keep it alive.
